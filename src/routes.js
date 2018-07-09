@@ -11,40 +11,22 @@ Vue.use(VueRouter)
 const router = new VueRouter ({
   routes: [
     {
-      path:'Portfolio-vue/#/',
+      path:'/',
       component: Home,
     },
     {
-      path:'Portfolio-vue/#/about',
+      path:'/about',
       component: About,
     },
     {
-      path:'Portfolio-vue/#/certi',
+      path:'/certi',
       component: Certi,
     },
     {
-      path:'Portfolio-vue/#/contact',
+      path:'/contact',
       component: Contact,
     }
   ]
-//   routes: [
-//     {
-//       path:'/',
-//       component: Home,
-//     },
-//     {
-//       path:'/about',
-//       component: About,
-//     },
-//     {
-//       path:'/certi',
-//       component: Certi,
-//     },
-//     {
-//       path:'/contact',
-//       component: Contact,
-//     }
-//   ]
 })
 
 export default router
